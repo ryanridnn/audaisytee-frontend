@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-slate-100 min-h-screen font-main;
+}
+
+// .btn{
+// 	@apply font
+// }
+
+.link {
+	@apply text-blue-700;
+
+	&--icon {
+		@apply flex items-center gap-1;
+
+		.icon {
+			@apply h-5 text-blue-500;
+		}
+	}
+}
